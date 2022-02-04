@@ -1,0 +1,66 @@
+body
+{
+    background-color: #589ED9;
+    font-family: 'Open Sans', sans-serif;
+}
+#container{
+    width: 300px;
+    text-align: center;
+    margin: 0px auto;
+    margin-top: 10%;
+}
+
+#header .logo{
+    font-size: 4em;
+    color: white;
+}
+#header h1{
+    color: white;
+}
+#loginform .containerfields input{
+    font-family: 'Open Sans', sans-serif;
+    background-color: white;
+    border: none;
+    padding: 20px;
+    width: 100%;
+    border-radius: 4px 4px 0px 0px;
+    font-size: 14px;
+    outline: none;
+    text-indent: 15px;
+}
+
+#loginform .containerfields input[type="password"]{
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 0px 0px 4px 4px;
+    border-top: 1px solid #ccc;
+
+}
+
+#loginform input[type="submit"]{
+    font-family: 'Open Sans', sans-serif;
+    display: block;
+    width: 114%;
+    border: none;
+    background-color:#2186D4;
+    color: white;
+    font-weight: bold;
+    font-size: large;
+    padding: 10px;
+    margin-top: 15px;
+    margin-left: -1px;
+    border-radius: 4px;   
+}
+#loginform input[type="submit"]:hover{
+   
+    background-color:#0B6AB4;
+    cursor: pointer;
+}
+#footer p{
+    color: white;
+    font-size: 15px;
+}
+#footer p a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
